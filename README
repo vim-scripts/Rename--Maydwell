@@ -1,0 +1,16 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3525
+
+Two modes -
+
+Normal: Replace all instances of the word under the cursor in the current file.
+Visual: Replace all instances of the current selection in the current file.
+
+Usage -
+
+<Leader><Leader>r
+
+I may make the usage more general in the future, but it should be very easy to change this mapping in the script if you need to for now.
+
+History -
+
+I couldn't find a 'dumb' find and replace plugin. All the plugins I came across were function-aware, etc. This is great if you're using C, however, sometimes you just want to change some text.
